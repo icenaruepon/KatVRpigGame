@@ -15,7 +15,7 @@ C:/Users/icena/Documents/GitHub/KatVRpigGame/TestSteamVR
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57981
+58646
 Successfully changed project path to: C:/Users/icena/Documents/GitHub/KatVRpigGame/TestSteamVR
 C:/Users/icena/Documents/GitHub/KatVRpigGame/TestSteamVR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/icena/Documents/GitHub/KatVRpigGame/TestSteamVR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 46.67 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 62.86 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,39 +63,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008077 seconds.
+Registered in 0.007433 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 39.05 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 37.18 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.572 seconds
+- Completed reload, in  0.588 seconds
 Domain Reload Profiling:
-	ReloadAssembly (572ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (589ms)
+		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (378ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (396ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (90ms)
+			SetupTypeCache (107ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (221ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (219ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (50ms)
+				InitializePlatformSupportModulesInManaged (54ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
+				RefreshPlugins (37ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadAttributes (86ms)
 				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -103,7 +103,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007770 seconds.
+Registered in 0.006564 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
@@ -112,43 +112,43 @@ Refreshing native plugins compatible for Editor in 0.62 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
+- Completed reload, in  0.972 seconds
 Domain Reload Profiling:
-	ReloadAssembly (967ms)
-		BeginReloadAssembly (208ms)
+	ReloadAssembly (973ms)
+		BeginReloadAssembly (218ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (121ms)
-		EndReloadAssembly (652ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (650ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (175ms)
+			SetupTypeCache (187ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (304ms)
+			SetupLoadedEditorAssemblies (298ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2265 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (62.5 KB). Loaded Objects now: 2734.
+Unloading 25 unused Assets / (62.7 KB). Loaded Objects now: 2734.
 Memory consumption went from 96.3 MB to 96.2 MB.
-Total: 3.238000 ms (FindLiveObjects: 0.273600 ms CreateObjectMapping: 0.255300 ms MarkObjects: 2.619800 ms  DeleteObjects: 0.088200 ms)
+Total: 3.931700 ms (FindLiveObjects: 0.270700 ms CreateObjectMapping: 0.165300 ms MarkObjects: 3.358500 ms  DeleteObjects: 0.136000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -162,54 +162,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1879380.420742 seconds.
-  path: Assets/New Lighting Settings.lighting
-  artifactKey: Guid(29c4a1b9fac71994c8fe5439df84a87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Lighting Settings.lighting using Guid(29c4a1b9fac71994c8fe5439df84a87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
- -> (artifact id: 'd2edecaf21eb85d613a71db57cc099f2') in 0.040158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 88.300425 seconds.
-  path: Assets/Prefab/MainRoom/Material/board.mat
-  artifactKey: Guid(b3fc1079e12653743af63cbb98409976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/MainRoom/Material/board.mat using Guid(b3fc1079e12653743af63cbb98409976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489ece6ba56ed395d620f68dff95bcb2') in 0.138229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Prefab/MainRoom/Material/floor.mat
-  artifactKey: Guid(f68262c72bcf6d540b3394586d760e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/MainRoom/Material/floor.mat using Guid(f68262c72bcf6d540b3394586d760e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda482134571a9857c26d34110c44d4c') in 0.029143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Prefab/MainRoom/Material/book.mat
-  artifactKey: Guid(2025037456096f9428d738e2eade22c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/MainRoom/Material/book.mat using Guid(2025037456096f9428d738e2eade22c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c075bd27a2c1d40e816320f151f390a') in 0.024040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Model/Forest/Material/fence1.mat
-  artifactKey: Guid(382e8cd1aee3f9e42aaf7d855b1f496d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Forest/Material/fence1.mat using Guid(382e8cd1aee3f9e42aaf7d855b1f496d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a4f51cc4cd0ddd707488ae2420999a') in 0.028465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Model/Forest/Material/box2.mat
-  artifactKey: Guid(4f4004ccf9940dd4eb5b0568bdc2b280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Forest/Material/box2.mat using Guid(4f4004ccf9940dd4eb5b0568bdc2b280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdf9ff365d0b84cfb5eb55d4c440a86') in 0.032488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.618475 seconds.
-  path: Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaVisibleBright.mat
-  artifactKey: Guid(f2d37238fea5a8c4a86c80912b379030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaVisibleBright.mat using Guid(f2d37238fea5a8c4a86c80912b379030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e8a95b72024e68d36364185a2ac5c5') in 0.024071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaHighlightedBright.mat
-  artifactKey: Guid(42e2d33cb8e988945826a8a0f5c0f543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaHighlightedBright.mat using Guid(42e2d33cb8e988945826a8a0f5c0f543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8111e5b075130d7404289cf95c1d3c4e') in 0.015061 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 1882274.120736 seconds.
+  path: Assets/Model/Food
+  artifactKey: Guid(5f7cdd57df7305043b77052db1f4fd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Food using Guid(5f7cdd57df7305043b77052db1f4fd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f22b1f95b21d6da00ff126d7803e06') in 0.012083 seconds 
